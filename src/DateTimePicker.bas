@@ -1,6 +1,5 @@
 #include once "DateTimePicker.bi"
 #include once "windows.bi"
-#include once "win\shlwapi.bi"
 #include once "WinMain.bi"
 
 #ifdef WITHOUT_RUNTIME
