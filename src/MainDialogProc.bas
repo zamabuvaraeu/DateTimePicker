@@ -33,7 +33,7 @@ Function MainDialogProc( _
 						GetWindowLongPtr(hwndDlg, GWLP_USERDATA) _
 					)
 					Dim hTime As HWND = GetDlgItem(hwndDlg, IDC_DTP_TIME)
-					Dim hDate As HWND = GetDlgItem(hwndDlg, IDC_DTP_TIME)
+					Dim hDate As HWND = GetDlgItem(hwndDlg, IDC_DTP_DATE)
 					
 					DateTime_GetSystemtime(hTime, @pparam->tTime)
 					DateTime_GetSystemtime(hDate, @pparam->tDate)
